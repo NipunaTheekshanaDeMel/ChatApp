@@ -1,0 +1,173 @@
+.btnBack:hover {
+    -fx-opacity: 1;
+}
+
+.btnLogin {
+    -fx-background-color: #4f5b62;
+}
+
+.btnLogin:hover {
+    -fx-background-color: #62727b !important;
+    -fx-text-fill: #4db6ac;
+}
+
+.allButton {
+    -fx-background-color:  #718792;
+    -fx-background-radius: 90;
+}
+
+.allButton:hover {
+    -fx-background-color: #819ca9;
+    -fx-text-fill: #000000;
+}
+
+.txtFont {
+    -fx-text-fill: #f4f4f4;
+}
+
+.txtFont:focused {
+    -fx-border-color: transparent transparent #558b2f transparent;
+    -fx-text-fill: #f4f4f4;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.background{
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal{
+    -fx-opacity: 0;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb{
+    -fx-background-color: transparent;
+}
+.scroll-bar:vertical .thumb:hover{
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .increment-arrow,
+.scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: transparent;
+}
+
+.transparent-vbox{-fx-background-color: transparent}
+
+.receive-text {
+    -fx-font-size: 12;
+    -fx-fill: #ffffff;
+    -fx-font-family: Calibri;
+}
+
+.receive-box {
+    -fx-background-color:  #718792;
+    -fx-padding: 8;
+    -fx-border-radius: 8;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-border-color: white;
+    -fx-border-width: 1;
+    -fx-start-margin: 10px;
+}
+
+.send-box{
+    -fx-background-color:  #214f40;
+    -fx-padding: 5;
+    -fx-text-fill: white;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-border-color: white;
+    -fx-border-width: 1;
+    -fx-start-margin: 5px;
+}
+
+.send-text{
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-fill: #ffffff;
+    -fx-font-family: Calibri;
+}
+.nameText{
+    -fx-fill: #ffffff;
+    -fx-font-style: italic;
+    -fx-font-family: Gill Sans MT;
+}
+
+.nameTextRecieved{
+    -fx-fill: #ffffff;
+}
+
+.join-text{
+    -fx-text-fill:  #57cc99;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.left-text{
+    -fx-text-fill:  #e63946;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+
+.textField {
+    -fx-text-fill: #eeeeee;
+    -fx-font-family: Arial !important;
+}
+
+.msgBox {
+    -fx-background-color: #455a64;
+    -fx-background-radius: 70;
+    -fx-font-size: 15px;
+    -fx-text-fill: #eeeeee;
+    -fx-font-family: Arial !important;
+}
+
+.emoji_pane{
+    -fx-background-color: transparent;
+    -fx-background-radius: 10;
+    -fx-border-width: 0 0 5 0;
+    -fx-border-color:  #57cc99;
+    -fx-border-radius: 10;
+}
+
+.image_pane{
+    -fx-background-color: rgba(100, 98, 98, 0.43);
+    -fx-fill: #ffffff;
+    -fx-font-style: italic;
+    -fx-font-family: Gill Sans MT;
+}
+
+/*
+    Button Font color: #004c40
+    Button Background Color: #718792
+    All Button Hover Color: #819ca9
+    Body Color: #263238
+    Text field color:  #455a64
+    Header color: #102027
+
+ */
